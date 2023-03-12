@@ -1,0 +1,255 @@
+body{
+    /*background-image: url('g4dncn77fpc51.jpg');*/
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+.search{
+    align-self: flex-end;
+    border-radius: 20px;
+    width:300px;
+    height:50px;
+    padding:20px;
+    font-family: monospace;
+    font-size: 150%;
+    color: white;
+    background: black;
+
+}
+
+i.icon{
+    color:white;
+    float: right;
+    position: absolute;
+    padding-left: 5px;
+}
+
+button.button{
+    padding-right: 50%!important;
+}
+
+.search:focus{
+    outline:none;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+}
+
+h1.music{
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+.container1 {  display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 150%;
+    gap: 0px 0px;
+    grid-auto-flow: row dense;
+    grid-template-areas:
+      "nav-bar nav-bar"
+      "description information";
+  }
+  
+  .information { grid-area: information; }
+  
+  .description { grid-area: description; }
+  
+  .nav-bar { grid-area: nav-bar; }
+  
+  
+div#outtercontainer{
+    width: 50%;
+    height: 50%; 
+    bottom: 0;
+    right: 0;
+    position: absolute;;
+}
+
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row dense;
+    grid-template-areas:
+      ". title date"
+      "description description date"
+      "description2 description2 description2";
+    float: right;
+    width: 50%;
+    height: 50%;
+  }
+  
+  .date { grid-area: date; }
+  
+  .title { grid-area: title; }
+  
+  .description { grid-area: description; }
+  
+  .description2 { grid-area: description2; }
+  
+
+.Read{
+    background:none;
+    border: black;
+    border:solid;
+    border-radius: 15px;
+    height: 40px;
+    
+}
+
+.description{
+    display: inline;
+    padding:0;
+    float: flex-start;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div.date{
+    color:black;
+    font-weight: bold;
+    border-color: black;
+    /*vertical-align: middle !important;
+    text-align: center !important;
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;*/
+    vertical-align: middle;
+    height: 100%;
+    border-style:solid;
+    font-size: 300%;
+    padding: 0;
+}
+
+div#ipsum{
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+}
+
+div#info{
+    text-align: right;
+}
+
+.accounts{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 10%;
+}
+
+.information{
+    float: right;
+}
+
+#Date{
+    float: right;
+    border-style:solid;
+    
+    bottom: 100px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding:20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.live{
+    color:white;
+    font-size: 70px;
+    /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+}
+
+.btn2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%;    
+}
+
+.btn2 #sign-in{
+    width: 150px;
+}
+
+.btn2 #Read-More{
+    width: 150px;
+}
+div.text{
+    padding-left:10px;
+    left: 100px;
+    top: 200px;
+    width: 500px;
+    text-align: center;
+}
+
+a.btn{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+
+.navigation{
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+
+.btn-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+a.btn:hover{
+    background: white ; 
+    color: black ;
+}
+a{
+    padding:10px ;
+}
+
+.navigation-search{
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*.btn-list{
+    display: flex;
+    justify-content: space-between;
+}*/
+
+div.title{
+    font-size: 200%;
+    font-weight: bold;
+    color:black;
+}
+
+div.description{
+    text-align: right;
+    padding-right: 5px;
+    color:black;
+    /*sition: absolute;*/
+    bottom:0;
+}
+
+div.description2{
+    text-align: right;
+    color:black;
+}
