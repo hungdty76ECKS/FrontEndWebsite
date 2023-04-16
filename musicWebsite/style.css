@@ -132,9 +132,13 @@ div.date{
     flex-direction: column;*/
     vertical-align: middle;
     height: 100%;
+    width: 60%;
     border-style:solid;
-    font-size: 300%;
+    font-size: 250%;
     padding: 0;
+    position: relative;
+    float: right;
+    margin-left: auto;
 }
 
 div#ipsum{
